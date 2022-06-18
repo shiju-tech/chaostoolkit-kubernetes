@@ -4,6 +4,10 @@
 
 [Unreleased]: https://github.com/chaostoolkit/chaostoolkit-kubernetes/compare/0.26.2...HEAD
 
+### Added
+
+Eviction Api added to support v1.22+ in actions.py for Nodes 
+
 ### Fixed
 
 -Fixed the cmd splitting issue, therefore the shell commands will now parse correctly [#133][133]
